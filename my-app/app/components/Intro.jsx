@@ -6,10 +6,10 @@ import Avatar from "../../public/images/thomas_256_avatar.png";
 const Intro = () => {
   return (
     <section>
-      <div className="mx-auto shadow-md mt-16 w-90 md:max-w-4xl ">
+      <div className="mx-auto shadow-md mt-20 w-90 md:max-w-4xl ">
         <div className="md:flex">
           <div className="p-8 border border-black">
-            <h1 class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl sm:text-5xl lg:text-6xl lg:leading-normal lg: font-extrabold text-white font-bold">
+            <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl sm:text-5xl lg:text-6xl lg:leading-normal lg: font-extrabold text-white font-bold">
               Hi, I'm Thomas
             </h1>
             <p className="mt-2 text-white">A bit about me....</p>

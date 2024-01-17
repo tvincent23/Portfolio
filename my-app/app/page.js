@@ -10,9 +10,12 @@ import About from "./components/About";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-gradient-to-tr to-blue-700 from-indigo-900 ">
+    <main className="flex min-h-screen flex-col bg-[#003060] ">
+      {/* </main><main className="flex min-h-screen flex-col bg-[#050A30] ">
+  </main><main className="flex min-h-screen flex-col bg-[#003B73] "> */}
       <Navbar />
-      <div className="container lg:mt-40 mx-auto px-12 py-4">
+      {/* <div className="container lg:mt-40 mx-auto px-12 py-4"> */}
+      <div className="container mt-24 mx-auto px-12 py-4">
         <Intro />
         <About />
         <Skills />
