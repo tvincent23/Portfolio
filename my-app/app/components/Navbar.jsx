@@ -29,7 +29,7 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 right-0 z10 bg-[#121212] bg-opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z10 bg-[#050A30] bg-opacity-100">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 text-white font-semibold">
         <Link className="flex justify-items-start max-w-36 max-h-36" href="/">
           <Image className="scale-50" src={Avatar} alt="avatar image" />
