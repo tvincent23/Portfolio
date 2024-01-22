@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col text-center md:text-left items-center justify-center mb-24 max-w-4xl mx-auto text-white">
+    <section
+      className="flex flex-col text-center md:text-left items-center justify-center mb-24 max-w-4xl mx-auto text-white"
+      id="contact"
+    >
       <p className="text-white"> Contact... replace with image</p>
       <div className="flex flex-col md:flex-row-reverse gap-16 justify-center items-center">
         <p className="max-w-[65ch]">A bit about my current situation...</p>
