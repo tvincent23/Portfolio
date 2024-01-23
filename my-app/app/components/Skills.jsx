@@ -1,14 +1,41 @@
 import React from "react";
 
+const skillsList = [
+  "JavaScript",
+  "React",
+  "Next.js",
+  "HTML 5",
+  "CSS",
+  "Node.js",
+  "TypeScript",
+  "Jest",
+  "Express",
+  "SQL",
+  "PostgreSQL",
+  "Figma",
+  "GitHub",
+  "npm",
+  "VS Code",
+];
+
 const Skills = () => {
   return (
     <section id="skills">
-      <h2 className="text-white">Skills...</h2>
-      <ul>
-        <li className="px-6 py-3 rounded-full mr-4 bg-white  w-32">
-          JavaScript
-        </li>
-      </ul>
+      <div className="grid grid-cols-1 ">
+        <h2 className="col-span-full place-self-center text-white">
+          Skills...
+        </h2>
+        <ul className="max-w-[900px] place-self-center grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 lg:grid-cols-5 gap-x-24 sm:gap-x-2">
+          {skillsList.map((skill) => (
+            <li
+              key={skill}
+              className="place-self-center px-6 py-3 rounded-full mt-2 mb-2  bg-white  w-32 text-center"
+            >
+              {skill}
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };

@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import githubLogo from "../../public/images/github-mark-white.png";
+import linkedInLogo from "../../public/images/In-Blue-Logo.png.original.png";
 
 const Contact = () => {
   return (
@@ -17,7 +20,12 @@ const Contact = () => {
             rel="noreferrer"
             className="underline"
           >
-            <p>Add Linkedin image</p>
+            <Image
+              src={linkedInLogo}
+              alt="LinkedIn Logo"
+              className="w-[40px] h-[40px] text-white"
+            />
+            {/* <p>Add Linkedin image</p> */}
           </Link>{" "}
           <Link
             href="https://github.com/tvincent23"
@@ -25,7 +33,12 @@ const Contact = () => {
             rel="noreferrer"
             className="underline"
           >
-            <p>Add GitHub image</p>
+            <Image
+              src={githubLogo}
+              alt="GitHub Logo"
+              className="w-[40px] h-[40px]"
+            />
+            {/* <p>Add GitHub image</p> */}
           </Link>{" "}
         </div>
       </div>
