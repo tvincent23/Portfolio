@@ -13,7 +13,7 @@ const About = () => {
           className=" w-[200px] h-[200px] lg:w-[260px] lg:h-[260px]"
         />
         <div>
-          <h2>About Me</h2>
+          <h2 className="font-bold text-3xl">About Me</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

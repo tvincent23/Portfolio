@@ -22,8 +22,8 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="grid grid-cols-1 ">
-        <h2 className="col-span-full place-self-center text-white">
-          Skills...
+        <h2 className="col-span-full place-self-center font-bold text-3xl text-white ">
+          Skills
         </h2>
         <ul className="max-w-[900px] place-self-center grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 lg:grid-cols-5 gap-x-24 sm:gap-x-2">
           {skillsList.map((skill) => (
