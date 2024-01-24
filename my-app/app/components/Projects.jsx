@@ -24,7 +24,9 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-white font-bold text-3xl">Projects</h2>
+      <h2 className="mt-24 text-center text-white font-bold text-3xl">
+        Projects
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:gap-12">
         {projectsData.map((project) => (
           <ProjectDetails

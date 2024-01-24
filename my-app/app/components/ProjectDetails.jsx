@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectDetails = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
-    <div>
+    <div className="mt-8">
       <div
         className="h-52 md:h-72 rounded-t-xl relative group border-t-2 border-l-2 border-r-2 border-white-600"
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
