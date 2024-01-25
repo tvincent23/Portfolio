@@ -6,14 +6,14 @@ import Avatar from "../../public/images/thomas_256_avatar.png";
 const About = () => {
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 mt-24">
         <Image
           src={Avatar}
           alt="avatar image"
-          className=" w-[200px] h-[200px] lg:w-[260px] lg:h-[260px]"
+          className=" w-[200px] h-[200px] lg:w-[260px] lg:h-[260px] mx-auto"
         />
         <div>
-          <h2 className="font-bold text-3xl">About Me</h2>
+          <h2 className="font-bold text-3xl mt-6 md:mt-0">About Me</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

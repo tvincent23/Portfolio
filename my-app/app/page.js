@@ -10,12 +10,12 @@ import About from "./components/About";
 
 export default function Home() {
   return (
-    <main className="flex mih-h-screen flx-col bg-[#050A30] mx-auto py-4 px-12  ">
+    <main className="flex mih-h-screen flx-col bg-[#050A30] mx-auto py-4 sm:px-12  ">
       {/* colour options #003B73 003060 */}
 
       <Navbar />
 
-      <div className="container mt-24 mx-auto px-12 py-4">
+      <div className="container mt-24 mx-auto px-2 sm:px-12 py-4">
         <Intro />
         <About />
         <Skills />
