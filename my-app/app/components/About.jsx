@@ -2,15 +2,16 @@ import React from "react";
 import Image from "next/image";
 
 import Avatar from "../../public/images/thomas_256_avatar.png";
+import img1 from "../../public/images/img1.png";
 
 const About = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 mt-24">
         <Image
-          src={Avatar}
+          src={img1}
           alt="avatar image"
-          className=" w-[200px] h-[200px] lg:w-[260px] lg:h-[260px] mx-auto"
+          className=" w-[200px] h-[200px] lg:w-[260px] lg:h-[260px] mx-auto rounded-xl"
         />
         <div>
           <h2 className="font-bold text-3xl mt-6 md:mt-0">About Me</h2>

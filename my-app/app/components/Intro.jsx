@@ -23,7 +23,7 @@ const Intro = () => {
         </div>
 
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#000] w-[225px] h-[225px] lg:w-[300px] lg:h-[300px] relative">
+          <div className="rounded-full border-solid border-2 border-white-600 bg-[#000] w-[225px] h-[225px] lg:w-[300px] lg:h-[300px] relative">
             <Image
               src={Avatar}
               alt="avatar image"

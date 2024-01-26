@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       title: "Beyond Barriers",
       description: "description...",
-      image: "/images/thomas_256_avatar.png",
+      image: "/images/img2bb.png",
       gitUrl: "/",
       previewUrl: "/",
     },
