@@ -12,7 +12,10 @@ const Contact = () => {
     >
       <p className="mt-24 text-white font-bold text-3xl ">Contact</p>
       <div className="mt-8 flex flex-col md:flex-row-reverse gap-16 justify-center items-center">
-        <p className="max-w-[65ch]">A bit about my current situation...</p>
+        <p className="max-w-[400px] lg:max-w-[600px] lg:text-xl px-2 sm:px-0 ">
+          I am currently looking for new opportunities. If you're looking for a
+          junior developer in any capacity, I'd love to hear from you!{" "}
+        </p>
         <div className="flex flex-row gap-2 mt-4 items-center justify-center md:justify-start">
           <Link
             href="https://linkedin.com/in/thomas--vincent"
