@@ -16,7 +16,7 @@ const Contact = () => {
           I am currently looking for new opportunities. If you're looking for a
           junior developer in any capacity, I'd love to hear from you!{" "}
         </p>
-        <div className="flex flex-row gap-2 mt-4 items-center justify-center md:justify-start">
+        <div className="flex flex-row gap-4 mt-4 items-center justify-center md:justify-start">
           <Link
             href="https://linkedin.com/in/thomas--vincent"
             target="_blank"

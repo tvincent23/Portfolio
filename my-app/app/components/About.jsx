@@ -15,7 +15,7 @@ const About = () => {
         />
         <div>
           <h2 className="font-bold text-3xl mt-6 md:mt-0">About Me</h2>
-          <p>
+          <p className="mt-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
