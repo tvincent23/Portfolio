@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="mt-36 grid grid-cols-1 ">
-        <h2 className="col-span-full place-self-center font-bold text-3xl text-white ">
+        <h2 className="col-span-full place-self-center font-bold text-3xl 2xl:text-4xl text-white ">
           Skills
         </h2>
         <ul className="mt-8 max-w-[900px] place-self-center grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 lg:grid-cols-5 gap-x-6 sm:gap-x-2">
