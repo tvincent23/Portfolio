@@ -21,7 +21,7 @@ const skillsList = [
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="mt-24 grid grid-cols-1 ">
+      <div className="mt-36 grid grid-cols-1 ">
         <h2 className="col-span-full place-self-center font-bold text-3xl text-white ">
           Skills
         </h2>

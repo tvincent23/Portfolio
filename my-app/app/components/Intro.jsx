@@ -18,7 +18,7 @@ const Intro = () => {
             />
           </span>
           <p className="mt-3 text-white text-lg mb-6 lg:text-xl">
-            FULLSTACK WEB DEVELOPER
+            FULL STACK WEB DEVELOPER
           </p>
         </div>
 
