@@ -16,7 +16,7 @@ const Projects = () => {
       id: 2,
       title: "Portfolio",
       description: "description...",
-      image: "/images/thomas_256_avatar.png",
+      image: "/images/img3p.png",
       gitUrl: "/",
       previewUrl: "/",
     },
