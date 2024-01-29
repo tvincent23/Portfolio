@@ -9,7 +9,7 @@ const Intro = () => {
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left ">
-          <span className="text-white mb-4 text-3xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold">
+          <span className="w-11/12 text-white mb-4 text-3xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold">
             <TypeAnimation
               sequence={[" Hi, I'm Thomas", 5000]}
               wrapper="span"
@@ -17,13 +17,13 @@ const Intro = () => {
               repeat={Infinity}
             />
           </span>
-          <p className="text-white text-lg mb-6 lg:text-xl">
-            A bit about me....
+          <p className="mt-3 text-white text-lg mb-6 lg:text-xl">
+            FULL STACK WEB DEVELOPER
           </p>
         </div>
 
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#000] w-[225px] h-[225px] lg:w-[300px] lg:h-[300px] relative">
+          <div className="rounded-full border-solid border-2 border-white-600 bg-[#000] w-[225px] h-[225px] lg:w-[300px] lg:h-[300px] relative">
             <Image
               src={Avatar}
               alt="avatar image"

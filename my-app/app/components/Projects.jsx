@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       title: "Beyond Barriers",
       description: "description...",
-      image: "/images/thomas_256_avatar.png",
+      image: "/images/img2bb.png",
       gitUrl: "/",
       previewUrl: "/",
     },
@@ -24,8 +24,10 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-white font-bold text-3xl">Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:gap-12">
+      <h2 className="mt-36 text-center text-white font-bold text-3xl 2xl:text-4xl">
+        Projects
+      </h2>
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-2 sm:gap-6 md:gap-12 max-w-[312px] md:max-w-[800px]">
         {projectsData.map((project) => (
           <ProjectDetails
             key={project.id}

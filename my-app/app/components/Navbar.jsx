@@ -31,8 +31,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#050A30] bg-opacity-100">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 text-white font-semibold">
-        <Link className="flex justify-items-start max-w-36 max-h-36" href="/">
-          <Image className="scale-50" src={Avatar} alt="avatar image" />
+        <Link className="flex justify-items-start max-w-20 max-h-20" href="/">
+          <Image className="scale-75" src={Avatar} alt="avatar image" />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
