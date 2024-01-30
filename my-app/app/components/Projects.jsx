@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       title: "Beyond Barriers",
       description:
-        "A disability community app designed to improve the process of discovering if a venue is suitable for specific needs.",
+        "A disability community app designed to address the lack of centralised information regarding various venues' accessibility.",
       image: "/images/img2bb.png",
       gitUrl: "/",
       previewUrl: "https://beyond-barriers.vercel.app/",

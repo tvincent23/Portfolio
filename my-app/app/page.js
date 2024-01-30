@@ -15,7 +15,7 @@ export default function Home() {
 
       <Navbar />
 
-      <div className="container mt-36 md:mt-48 lg:mt-60 2xl:mt-72 mx-auto px-2 sm:px-12 py-4">
+      <div className="container mt-48 md:mt-48 lg:mt-60 2xl:mt-72 mx-auto px-2 sm:px-12 py-4">
         <Intro />
         <About />
         <Skills />
