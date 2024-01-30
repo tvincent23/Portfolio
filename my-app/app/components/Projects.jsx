@@ -38,7 +38,7 @@ const Projects = () => {
       <h2 className="mt-36 text-center text-white font-bold text-3xl 2xl:text-4xl">
         Projects
       </h2>
-      <div className="mx-auto grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 sm:gap-6 md:gap-12  max-w-[312px] md:max-w-[800px] 2xl:max-w-[1400px]">
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 sm:gap-6 md:gap-12 max-w-[312px] md:max-w-[800px] 2xl:max-w-[1400px]">
         {projectsData.map((project) => (
           <ProjectDetails
             key={project.id}
