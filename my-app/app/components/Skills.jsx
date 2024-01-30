@@ -29,7 +29,7 @@ const Skills = () => {
           {skillsList.map((skill) => (
             <li
               key={skill}
-              className="place-self-center px-6 py-3 rounded-full mt-2 mb-2  bg-white  w-32 text-center"
+              className="place-self-center px-4 py-3 rounded-full mt-2 mb-2  bg-white  w-32 text-center"
             >
               {skill}
             </li>

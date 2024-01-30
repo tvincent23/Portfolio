@@ -35,24 +35,23 @@ const About = () => {
             For a long time, I was uncertain about my career path and
             hadn&apos;t considered software development as an option. Then, a
             few years ago while traveling, I met an inspirational software
-            developer and stayed in touch through social media. Their advocacy
-            for learning to code opened my eyes to the possibilities, prompting
-            me to explore and experiment. I quickly discovered my passion for
-            logical thinking, problem-solving, creativity, and the entire
-            spectrum of software development. Instantly I knew, this is what I
-            want to do!
+            developer and stayed in touch. Their advocacy for learning to code
+            opened my eyes to the possibilities, prompting me to explore and
+            experiment. I quickly discovered my passion for logical thinking,
+            problem-solving, creativity, and the entire spectrum of software
+            development. Instantly I knew, this is what I want to do!
           </p>
         </div>
         <div>
           <p className="text-justify lg:pt-12 max-w-[666px] mt-8 md:mt-0">
             I then applied to School of Code and was fortunately accepted. I
-            recently graduated from their 16-week intensive full stack web dev
-            bootcamp. A truly life changing experience. We were taught how to
-            learn, work in an agile dev team, and practice it working with a new
-            team each week using computational thinking to solve problems in a
-            creative way. For our final four-week project, we had the
-            opportunity to collaborate with an external stakeholder. A
-            thoroughly enjoyable and extremely valuable experience.
+            recently graduated from their 16-week intensive full stack web
+            development bootcamp. A truly life changing experience. We were
+            taught how to learn, work in an agile dev team, and practice it
+            working in a new team each week; using computational thinking to
+            solve problems in a creative way. For the final project, I had the
+            opportunity to collaborate with an external stakeholder. It was a
+            thoroughly enjoyable and valuable experience.
           </p>
         </div>
       </div>
