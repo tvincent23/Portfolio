@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="mt-8 flex flex-col md:flex-row-reverse gap-8 md:gap-16 justify-center items-center">
         <p className="max-w-[400px] lg:max-w-[600px] lg:text-xl px-2 sm:px-0 ">
           I am currently looking for new opportunities. If you're looking for a
-          junior developer in any capacity, I'd love to hear from you!{" "}
+          junior developer in any capacity, I'd love to hear from you!
         </p>
         <div className="flex flex-row gap-4 md:mt-4 items-center justify-center md:justify-start">
           <Link
@@ -30,7 +30,7 @@ const Contact = () => {
               alt="LinkedIn Logo"
               className="w-[40px] h-[40px] text-white mb-3"
             />
-          </Link>{" "}
+          </Link>
           <Link
             href="https://github.com/tvincent23"
             target="_blank"
@@ -42,7 +42,7 @@ const Contact = () => {
               alt="GitHub Logo"
               className="w-[37px] h-[37px] mb-3.5"
             />
-          </Link>{" "}
+          </Link>
         </div>
       </div>
     </section>
