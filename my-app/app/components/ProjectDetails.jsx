@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ProjectDetails = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
-  console.log(gitUrl);
   return (
     <div className="mt-8">
       <div
