@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       title: "Beyond Barriers",
       description:
-        "A disability community app designed to address the lack of centralised information regarding various venues' accessibility.",
+        "An app created for the disability community, designed to solve the lack of centralised information and reviews about the accessibility features of different venues.",
       image: "/images/img2bb.png",
       gitUrl: "/",
       previewUrl: "https://beyond-barriers.vercel.app/",
@@ -17,7 +17,7 @@ const Projects = () => {
       id: 2,
       title: "Portfolio",
       description:
-        "My portfolio site. Built using Next JS, JavaScript and TailwindCSS.",
+        "My personal portfolio site. Built using Next JS, JavaScript and TailwindCSS.",
       image: "/images/img3p.png",
       gitUrl: "/",
       previewUrl: "https://thomas-vincent.vercel.app/",

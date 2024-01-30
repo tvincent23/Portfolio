@@ -35,7 +35,7 @@ const About = () => {
             For a long time, I was uncertain about my career path and
             hadn&apos;t considered software development as an option. Then, a
             few years ago while traveling, I met an inspirational software
-            developer and stayed in touch. Their advocacy for learning to code
+            developer and we kept in touch. Their advocacy for learning to code
             opened my eyes to the possibilities, prompting me to explore and
             experiment. I quickly discovered my passion for logical thinking,
             problem-solving, creativity, and the entire spectrum of software
