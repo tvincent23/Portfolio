@@ -15,8 +15,9 @@ const Contact = () => {
       </p>
       <div className="mt-8 flex flex-col md:flex-row-reverse gap-8 md:gap-16 justify-center items-center">
         <p className="max-w-[400px] lg:max-w-[600px] lg:text-xl px-2 sm:px-0 ">
-          I am currently looking for new opportunities. If you're looking for a
-          junior developer in any capacity, I'd love to hear from you!
+          I am currently looking for new opportunities. If you&apos;re looking
+          for a junior developer in any capacity, I&apos;d love to hear from
+          you!
         </p>
         <div className="flex flex-row gap-4 md:mt-4 items-center justify-center md:justify-start">
           <Link

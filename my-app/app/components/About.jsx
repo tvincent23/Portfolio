@@ -19,9 +19,9 @@ const About = () => {
         />
         <div>
           <p className="text-justify max-w-[666px] mt-8 md:mt-4">
-            I'm Thomas, a Junior Full Stack Developer. My background is in
-            retail sales management, with 10 years' experience working for a
-            leading mobile network operator. Having always had a passion for
+            I&apos;m Thomas, a Junior Full Stack Developer. My background is in
+            retail sales management, with 10 years&apos; experience working for
+            a leading mobile network operator. Having always had a passion for
             tech, I loved to work with the latest gadgets. I fondly recall the
             launch of the first iPhone and its competitors over the years; I
             have spent plenty of time supporting customers with their devices
@@ -32,14 +32,15 @@ const About = () => {
         </div>
         <div>
           <p className="text-justify lg:pt-12 max-w-[666px] mt-8 md:mt-0">
-            For a long time, I was uncertain about my career path and hadn't
-            considered software development as an option. Then, a few years ago
-            while traveling, I met an inspirational software developer and
-            stayed in touch through social media. Their advocacy for learning to
-            code opened my eyes to the possibilities, prompting me to explore
-            and experiment. I quickly discovered my passion for logical
-            thinking, problem-solving, creativity, and the entire spectrum of
-            software development. Instantly I knew, this is what I want to do!
+            For a long time, I was uncertain about my career path and
+            hadn&apos;t considered software development as an option. Then, a
+            few years ago while traveling, I met an inspirational software
+            developer and stayed in touch through social media. Their advocacy
+            for learning to code opened my eyes to the possibilities, prompting
+            me to explore and experiment. I quickly discovered my passion for
+            logical thinking, problem-solving, creativity, and the entire
+            spectrum of software development. Instantly I knew, this is what I
+            want to do!
           </p>
         </div>
         <div>
