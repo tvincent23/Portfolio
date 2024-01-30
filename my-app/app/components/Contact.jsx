@@ -10,7 +10,7 @@ const Contact = () => {
       className="flex flex-col text-center md:text-left items-center justify-center mb-24 max-w-4xl mx-auto text-white"
       id="contact"
     >
-      <p className="mt-36 text-white font-bold text-3xl 2xl:text-4xl">
+      <p className="mt-48 text-white font-bold text-3xl 2xl:text-4xl">
         Contact
       </p>
       <div className="mt-8 flex flex-col md:flex-row-reverse gap-8 md:gap-16 justify-center items-center">
