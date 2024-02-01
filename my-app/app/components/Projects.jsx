@@ -19,7 +19,7 @@ const Projects = () => {
       description:
         "My personal portfolio site. Built using Next JS, JavaScript and TailwindCSS.",
       image: "/images/img3p.png",
-      gitUrl: "/",
+      gitUrl: "https://github.com/tvincent23/Portfolio",
       previewUrl: "https://thomas-vincent.vercel.app/",
     },
     {
