@@ -1,4 +1,4 @@
-<h2 align="center">My Portfolio</h2>
+<h1 align="center">$${\color{navy}My \space Portfolio}$$</h2>
 
 <br>
   
