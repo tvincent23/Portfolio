@@ -20,8 +20,8 @@ const skillsList = [
 
 const Skills = () => {
   return (
-    <section id="toolbox">
-      <div className="mt-48 grid grid-cols-1 ">
+    <section id="toolbox" className="mb-[92px] pt-[100px]">
+      <div className="grid grid-cols-1 ">
         <h2 className="col-span-full place-self-center font-bold text-3xl 2xl:text-4xl text-white ">
           Toolbox
         </h2>

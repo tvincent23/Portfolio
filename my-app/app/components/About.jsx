@@ -6,8 +6,8 @@ import img1 from "../../public/images/img1.png";
 
 const About = () => {
   return (
-    <section className="text-white" id="about">
-      <h2 className="mt-52 lg:mt-60 xl:mt-80 text-center text-white font-bold text-3xl 2xl:text-4xl">
+    <section className="text-white mb-[92px]" id="about">
+      <h2 className="pt-[100px] text-center text-white font-bold text-3xl 2xl:text-4xl">
         About Me
       </h2>
 

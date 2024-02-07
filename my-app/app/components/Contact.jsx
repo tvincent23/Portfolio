@@ -7,12 +7,10 @@ import linkedInLogo from "../../public/images/In-Blue-Logo.png.original.png";
 const Contact = () => {
   return (
     <section
-      className="flex flex-col text-center md:text-left items-center justify-center mb-24 max-w-4xl mx-auto text-white"
+      className="flex flex-col text-center md:text-left items-center justify-center max-w-4xl mx-auto text-white pt-[100px] mb-48"
       id="contact"
     >
-      <p className="mt-48 text-white font-bold text-3xl 2xl:text-4xl">
-        Contact
-      </p>
+      <p className="text-white font-bold text-3xl 2xl:text-4xl">Contact</p>
       <div className="mt-8 flex flex-col md:flex-row-reverse gap-8 md:gap-16 justify-center items-center">
         <p className="max-w-[400px] lg:max-w-[600px] lg:text-xl px-2 sm:px-0 ">
           I am currently looking for new opportunities. If you&apos;re looking
