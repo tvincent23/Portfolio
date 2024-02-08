@@ -6,8 +6,8 @@ import Avatar from "../../public/images/thomas_256_avatar.png";
 
 const Intro = () => {
   return (
-    <section className="sm:grid-cols-12 mb-[108px] lg:mb-[140px] xl:mb-[220px]">
-      <div className="grid grid-cols-1">
+    <section className=" mb-[108px] lg:mb-[140px] xl:mb-[220px]">
+      <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left ">
           <span className="w-11/12 text-white mb-4 text-3xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold">
             <TypeAnimation
